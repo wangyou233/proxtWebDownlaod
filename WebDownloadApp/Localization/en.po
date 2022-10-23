@@ -1,0 +1,32 @@
+msgid "download"
+msgstr "Download Path"
+
+msgid "Home"
+msgstr "Home"
+
+msgid "proxyDownloadTool"
+msgstr "Proxy Download Tool"
+
+msgid "isProxy"
+msgstr "Whether to enable proxy"
+
+msgid "dw"
+msgstr "Download"
+
+msgid "startDownload"
+msgstr "Start Download"
+
+msgid "fileExpired"
+msgstr "Files are only saved for 4 hours !"
+
+msgid "downloadTip"
+msgstr "Help you download the resources you need for magic! Currently only addresses with file names are supported such as"
+
+msgid "downloadPathPlaceholder"
+msgstr "Please fill in the download address"
+
+msgid "downloadNotEmpty"
+msgstr "The download address cannot be empty" 
+
+msgid "dateTime"
+msgstr "Time consuming"

@@ -1,0 +1,33 @@
+msgid "download"
+msgstr "下载地址"
+
+msgid "Home"
+msgstr "首页"
+
+msgid "proxyDownloadTool"
+msgstr "代理下载工具"
+
+msgid "isProxy"
+msgstr "是否启用代理"
+
+msgid "dw"
+msgstr "下载"
+
+msgid "startDownload"
+msgstr "开始下载"
+
+msgid "fileExpired"
+msgstr "文件只保存4小时！"
+
+msgid "downloadTip"
+msgstr "帮助你下载需要魔法的资源！ 目前只支持带文件名的地址 如"
+
+msgid "downloadPathPlaceholder"
+msgstr "请填入下载地址"
+
+msgid "downloadNotEmpty"
+msgstr "下载地址不能为空" 
+
+
+msgid "dateTime"
+msgstr "耗时"

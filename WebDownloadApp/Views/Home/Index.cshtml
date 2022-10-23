@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = @Localizer["Home"];
+}
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
+<div class="row justify-content-center">
+    <div class="col-lg-6 col-sm-12 col-md-6">
+        <div class="mb-3">
+            <label for="downloadUrl" class="form-label">@Localizer["download"]</label>
+            <input type="text" class="form-control" id="downloadUrl" placeholder="@Localizer["downloadPathPlaceholder"]" required value="">
+        </div>
+        <div >
+            <div class="row justify-content-end ">
+                <div class="col-3 col-xs-6 ">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked >
+                        <label class="form-check-label" for="flexSwitchCheckChecked">@Localizer["isProxy"]</label>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="mb-3">
+            <div id="msBox" style="display: none">
+                <p class="text-start" id="ms"></p>
+            </div>
+            <div class="progress" style="display: none" id="progressbarBox">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" id="progressbar">0%</div>
+            </div>
+        </div>
+        <div class="downloadUrlBox mb-3" style="display:none;">
+            <div class="alert alert-success" role="alert">
+                <span>@Localizer["dateTime"]:</span><span id="dateTime"></span><br>
+                <a href="" id="download" target="_blank">@Localizer["dw"]</a>
+            </div>
+        </div>
+        <div>
+            <button type="button" class="btn btn-outline-primary" id="submitDownload">@Localizer["startDownload"]</button>
+        </div>
+
+        <div class="mt-3">
+            <div class="alert alert-primary" role="alert">
+                 @Localizer["downloadTip"]:https://github.com/PortableGit-2.38.1-64-bit.7z.exe
+            </div>
+            <div class="alert alert-danger" role="alert">
+                @Localizer["fileExpired"]
+            </div>
+        </div>
+    </div>
+</div>
